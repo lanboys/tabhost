@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    >
+    
+<ImageView 
+    android:id="@+id/img_classfiy_item"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:scaleType="fitXY"
+    android:src="@drawable/ic_launcher"
+    android:layout_gravity="center_vertical"
+    android:layout_margin="8dp"
+    />
+
+    <TextView 
+        android:id="@+id/tv_classfiy_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="20sp"
+        android:lines="1"
+        android:text="123"
+        android:ellipsize="end"
+        android:paddingLeft="15dp"
+        />
+    
+      <TextView 
+        android:id="@+id/tv_classfiy_item_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="15sp"
+        android:lines="2"
+        android:text="123"
+        android:ellipsize="end"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        />
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/FragmentTabHost" />
+            <option value="$PROJECT_DIR$/TabUI" />
+            <option value="$PROJECT_DIR$/Tab_menu_Demo-master" />
+            <option value="$PROJECT_DIR$/fragmentTest2" />
+            <option value="$PROJECT_DIR$/fragment_tabhost" />
+            <option value="$PROJECT_DIR$/zhiHu_12_7_liujun" />
+            <option value="$PROJECT_DIR$/zhihuTest" />
+            <option value="$PROJECT_DIR$/zhihuTestTabLayout" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

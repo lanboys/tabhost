@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/activity_fragment_tabhost"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <!-- 如果系统未创建realtabcontent,将使用自定义的realtabcontent,否则有什么作用?????-->
+    <!-- 作为fragment的容器,事物替代-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我是测试文字"
+        android:textSize="30dp"/>
+
+    <FrameLayout
+        android:id="@+id/realtabcontent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"/><!--装4个Fragment-->
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#bf75b0"
+        android:text="我是测试文字"
+        android:textSize="30dp"/>
+
+    <!--定义FragmentTabHost控件-->
+    <android.support.v4.app.FragmentTabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#d4354f">
+
+        <!--在未自定义tabs的时候,系统内部也将创建一个tabcontent,如果用户定义了,tabhost的setup中就不使用系统的创建的, 一般的,用户不需要定义-->
+        <!--如果用户自定义了tabs,则必须自定义tabcontent,否则在setup中将报异常-->
+
+        <!--<FrameLayout-->
+        <!--android:id="@android:id/tabcontent"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:background="@color/colorAccent">&lt;!&ndash;装Tab的内容&ndash;&gt;-->
+        <!--</FrameLayout>-->
+
+        <!--<FrameLayout-->
+        <!--android:id="@+id/realtabcontent"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="250dp"-->
+        <!--android:background="#99d9550f">-->
+        <!--</FrameLayout>-->
+
+        <!--如果用户不定义tabs,系统将自动创建tabs和tabcontent,一般的,用户不需要定义-->
+        <!--同时也创建一个realtabcontent,此时自定义的realtabcontent有什么用???????作为容器,可是看源代码 看不出是作为容器的作用-->
+        <!--<TabWidget-->
+        <!--android:id="@android:id/tabs"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="#9924c91b"/>-->
+    </android.support.v4.app.FragmentTabHost>
+
+</LinearLayout>

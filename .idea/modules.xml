@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FragmentTabHost/FragmentTabHost.iml" filepath="$PROJECT_DIR$/FragmentTabHost/FragmentTabHost.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TabHost.iml" filepath="$PROJECT_DIR$/TabHost.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TabUI/TabUI.iml" filepath="$PROJECT_DIR$/TabUI/TabUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tab_menu_Demo-master/Tab_menu_Demo-master.iml" filepath="$PROJECT_DIR$/Tab_menu_Demo-master/Tab_menu_Demo-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fragmentTest2/fragmentTest2.iml" filepath="$PROJECT_DIR$/fragmentTest2/fragmentTest2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fragment_tabhost/fragment_tabhost.iml" filepath="$PROJECT_DIR$/fragment_tabhost/fragment_tabhost.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhiHu_12_7_liujun/zhiHu_12_7_liujun.iml" filepath="$PROJECT_DIR$/zhiHu_12_7_liujun/zhiHu_12_7_liujun.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhihuTest/zhihuTest.iml" filepath="$PROJECT_DIR$/zhihuTest/zhihuTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhihuTestTabLayout/zhihuTestTabLayout.iml" filepath="$PROJECT_DIR$/zhihuTestTabLayout/zhihuTestTabLayout.iml" />
+    </modules>
+  </component>
+</project>

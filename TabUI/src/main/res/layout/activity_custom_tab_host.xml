@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/activity_custom_tab_host"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <!--这里可用可不用系统的tabhost id-->
+    <TabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--这里必须用系统的tabcontent id-->
+            <!--因为TabHost类中引用了这个id-->
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <!--这里面的内容为tabs中的内容,必须在代码中绑定对应的tab才能在对应的tab中显示出来-->
+                <TextView
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#7fb4d3f2"
+                    android:gravity="center"
+                    android:text="TAB-1"
+                    android:textSize="50dp"/>
+
+                <TextView
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#7fe9b4f2"
+                    android:gravity="center"
+                    android:text="TAB-2"
+                    android:textSize="50dp"/>
+
+                <TextView
+                    android:id="@+id/tab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#7ff2edb4"
+                    android:gravity="center"
+                    android:text="TAB-3"
+                    android:textSize="50dp"/>
+
+            </FrameLayout>
+
+            <!--这里必须用系统的tabs id-->
+            <!--因为TabHost类中引用了这个id-->
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <!--tab标签要在代码中添加,xml中好像不能添加-->
+
+        </LinearLayout>
+    </TabHost>
+</LinearLayout>

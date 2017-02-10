@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/main_top" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" /><!--装4个Fragment-->
+
+
+    <!--定义FragmentTabHost控件-->
+    <android.support.v4.app.FragmentTabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"><!--装4个Fragment-->
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_height="100dp"
+             ><!--装Tab的内容-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tab1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="text1" />-->
+
+            <!--在tabcontent中的内容显示不出来,因为没有与tab绑定,但是tab在这里又不需要这些内容-->
+            <!--tab在内部创建了,不需要再xml中创建,tabcontent用不到可以不要他了-->
+
+        </FrameLayout>
+        <!--<TabWidget-->
+            <!--android:id="@android:id/tabs"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content" />-->
+    </android.support.v4.app.FragmentTabHost>
+
+</LinearLayout>

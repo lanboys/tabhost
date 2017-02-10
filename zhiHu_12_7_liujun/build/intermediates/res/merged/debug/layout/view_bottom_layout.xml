@@ -1,0 +1,35 @@
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_view"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:paddingTop="5dp"
+    android:layout_marginBottom="8dp"
+     >
+
+    <RadioButton
+        android:id="@+id/rb_home"
+        style="@style/BottomMenuStyle"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:checked="true"
+        android:drawableTop="@drawable/selector_status_main"
+        android:textColor="@drawable/selector_status_text"
+        android:text="主题" 
+        />
+    <View android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:background="#cdcdcd"
+        />
+    <RadioButton
+        android:id="@+id/rb_classfiy"
+        style="@style/BottomMenuStyle"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/selector_status_order"
+        android:textColor="@drawable/selector_status_text"
+        android:text="栏目" />
+
+
+</RadioGroup>

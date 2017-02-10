@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true">
+    <!--这个是最好的方式,跟tabhost其实是一样的,只是fragmenttabhost的内容是fragment,并通过代码动态添加进去-->
+    <android.support.v4.app.FragmentTabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--将tabcontent作为realtabcontent,并且将高度设置为 0 ,隐藏起来-->
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="0"
+                android:background="#efa862"/>
+            <!--ViewPager不属于tabhost类中的东西,只属于子控件-->
+            <!--ViewPager与tabcontent中的fragment对象,其实是不一样的对象,只是将tabcontent中的fragment隐藏起来了-->
+            <!--通过ViewPager与tab的监听器进行互相监听,实现滑动的时候带动tab的改变-->
+            <android.support.v4.view.ViewPager
+                android:id="@+id/view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </android.support.v4.app.FragmentTabHost>
+
+</RelativeLayout>
+
+
