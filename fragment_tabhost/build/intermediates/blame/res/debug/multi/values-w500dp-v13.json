@@ -1,5 +1,29 @@
 [
     {
+        "outputFile": "D:\\Android\\Android_WorkSpace\\tabhost\\fragment_tabhost\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w500dp-v13\\values-w500dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 54,
+                    "endOffset": 105
+                },
+                "from": {
+                    "file": "C:\\Users\\520\\.android\\build-cache\\a279e1ccfd6c75f3dd6c284625ae0332e9d51db9\\output\\res\\values-w500dp\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 176,
+                        "endColumn": 54,
+                        "endOffset": 226
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "D:\\Android\\Android_WorkSpace\\TabHost\\fragment_tabhost\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w500dp-v13\\values-w500dp-v13.xml",
         "map": [
             {

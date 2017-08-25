@@ -1,4 +1,4 @@
-include   ':Tab_menu_Demo-master',  ':TabUI', 'zhihuTest', ':zhihuTestTabLayout',  'FragmentTabHost'
+include   ':Tab_menu_Demo-master',  ':TabUI',   ':zhihuTestTabLayout',  'FragmentTabHost'
 include ':fragmentTest2'
 
 include ':fragment_tabhost'

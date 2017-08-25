@@ -57,12 +57,33 @@ public class TabLayoutActivity extends AppCompatActivity {
         mTabLayout = (TabLayout) findViewById(R.id.id_tablayout);
         mTabLayout.setupWithViewPager(mViewPager);
 
+
         //设置图标
         int tabCount = mTabLayout.getTabCount();
         for (int i = 0; i < tabCount; i++) {
-            mTabLayout.getTabAt(i).setIcon(icon[i]);
+            TabLayout.Tab tab = mTabLayout.getTabAt(i);
+            tab.setIcon(icon[i]);//不能控制布局高度等
+//            View customView = tab.getCustomView();
+//            tab.setCustomView(getTabLayoutChildView(i));//不能控制可控制布局高度等
         }
     }
+
+
+//    public View getTabLayoutChildView(int index) {
+//        View inflate = LayoutInflater.from(this).inflate(R.layout.item_tab, null);
+//        ImageView imageView = (ImageView) inflate.findViewById(R.id.iv_icon);
+//        TextView item = (TextView) inflate.findViewById(R.id.tv_item);
+//
+//        if (index == 0) {
+//            imageView.setImageResource(icon[index]);
+//            item.setText("店铺");
+//        } else {
+//            item.setText("订单");
+//            imageView.setImageResource(icon[index]);
+//        }
+//
+//        return inflate;
+//    }
 
     private void initDatas() {
 
@@ -72,4 +93,5 @@ public class TabLayoutActivity extends AppCompatActivity {
         mFragments.add(new BlankFragment4());
         mFragments.add(new BlankFragment5());
     }
+
 }

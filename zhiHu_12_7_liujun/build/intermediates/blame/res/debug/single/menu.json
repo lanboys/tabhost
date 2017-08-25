@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\Android\\Android_WorkSpace\\tabhost\\zhiHu_12_7_liujun\\build\\intermediates\\res\\merged\\debug\\menu\\home.xml",
+        "source": "D:\\Android\\Android_WorkSpace\\tabhost\\zhiHu_12_7_liujun\\src\\main\\res\\menu\\home.xml"
+    },
+    {
         "merged": "D:\\Android\\Android_WorkSpace\\TabHost\\zhiHu_12_7_liujun\\build\\intermediates\\res\\merged\\debug\\menu\\home.xml",
         "source": "D:\\Android\\Android_WorkSpace\\TabHost\\zhiHu_12_7_liujun\\src\\main\\res\\menu\\home.xml"
     }

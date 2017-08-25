@@ -1,55 +1,55 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from D:\Android\Android_WorkSpace\tabhost\fragment_tabhost\src\main\AndroidManifest.xml:2:1-27:12
 	package
-		ADDED from D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\src\main\AndroidManifest.xml:3:5-47
-		INJECTED from D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\src\main\AndroidManifest.xml
-		INJECTED from D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\src\main\AndroidManifest.xml
+		ADDED from D:\Android\Android_WorkSpace\tabhost\fragment_tabhost\src\main\AndroidManifest.xml:3:5-47
+		INJECTED from D:\Android\Android_WorkSpace\tabhost\fragment_tabhost\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Android_WorkSpace\tabhost\fragment_tabhost\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\src\main\AndroidManifest.xml
-		INJECTED from D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\src\main\AndroidManifest.xml
+		ADDED from D:\Android\Android_WorkSpace\tabhost\fragment_tabhost\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\Android\Android_WorkSpace\tabhost\fragment_tabhost\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Android_WorkSpace\tabhost\fragment_tabhost\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\src\main\AndroidManifest.xml
-		INJECTED from D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\src\main\AndroidManifest.xml
+		ADDED from D:\Android\Android_WorkSpace\tabhost\fragment_tabhost\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\Android\Android_WorkSpace\tabhost\fragment_tabhost\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Android_WorkSpace\tabhost\fragment_tabhost\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\Android\Android_WorkSpace\tabhost\fragment_tabhost\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\src\main\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:18.0.0] D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\AndroidManifest.xml:18:5-42
+ADDED from D:\Android\Android_WorkSpace\tabhost\fragment_tabhost\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:18.0.0] C:\Users\520\.android\build-cache\a279e1ccfd6c75f3dd6c284625ae0332e9d51db9\output\AndroidManifest.xml:18:5-42
 	android:targetSdkVersion
-		ADDED from D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\src\main\AndroidManifest.xml:9:9-38
-		INJECTED from D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\src\main\AndroidManifest.xml
-		INJECTED from D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\src\main\AndroidManifest.xml
+		ADDED from D:\Android\Android_WorkSpace\tabhost\fragment_tabhost\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from D:\Android\Android_WorkSpace\tabhost\fragment_tabhost\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Android_WorkSpace\tabhost\fragment_tabhost\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\src\main\AndroidManifest.xml:8:9-34
-		INJECTED from D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\src\main\AndroidManifest.xml
-		INJECTED from D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\src\main\AndroidManifest.xml
+		ADDED from D:\Android\Android_WorkSpace\tabhost\fragment_tabhost\src\main\AndroidManifest.xml:8:9-34
+		INJECTED from D:\Android\Android_WorkSpace\tabhost\fragment_tabhost\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Android_WorkSpace\tabhost\fragment_tabhost\src\main\AndroidManifest.xml
 application
-ADDED from D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\src\main\AndroidManifest.xml:11:5-25:19
-MERGED from [com.android.support:appcompat-v7:18.0.0] D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\AndroidManifest.xml:19:5-20
+ADDED from D:\Android\Android_WorkSpace\tabhost\fragment_tabhost\src\main\AndroidManifest.xml:11:5-25:19
+MERGED from [com.android.support:appcompat-v7:18.0.0] C:\Users\520\.android\build-cache\a279e1ccfd6c75f3dd6c284625ae0332e9d51db9\output\AndroidManifest.xml:19:5-20
 	android:label
-		ADDED from D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\src\main\AndroidManifest.xml:14:9-41
+		ADDED from D:\Android\Android_WorkSpace\tabhost\fragment_tabhost\src\main\AndroidManifest.xml:14:9-41
 	android:allowBackup
-		ADDED from D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\src\main\AndroidManifest.xml:12:9-35
+		ADDED from D:\Android\Android_WorkSpace\tabhost\fragment_tabhost\src\main\AndroidManifest.xml:12:9-35
 	android:icon
-		ADDED from D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\src\main\AndroidManifest.xml:13:9-45
+		ADDED from D:\Android\Android_WorkSpace\tabhost\fragment_tabhost\src\main\AndroidManifest.xml:13:9-45
 	android:theme
-		ADDED from D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\src\main\AndroidManifest.xml:15:9-56
+		ADDED from D:\Android\Android_WorkSpace\tabhost\fragment_tabhost\src\main\AndroidManifest.xml:15:9-56
 activity#com.yanis.yc_ui_fragment_tabhost.MainActivity
-ADDED from D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\src\main\AndroidManifest.xml:16:9-24:20
+ADDED from D:\Android\Android_WorkSpace\tabhost\fragment_tabhost\src\main\AndroidManifest.xml:16:9-24:20
 	android:label
-		ADDED from D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\src\main\AndroidManifest.xml:18:13-45
+		ADDED from D:\Android\Android_WorkSpace\tabhost\fragment_tabhost\src\main\AndroidManifest.xml:18:13-45
 	android:name
-		ADDED from D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\src\main\AndroidManifest.xml:17:13-41
+		ADDED from D:\Android\Android_WorkSpace\tabhost\fragment_tabhost\src\main\AndroidManifest.xml:17:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\src\main\AndroidManifest.xml:19:13-23:29
+ADDED from D:\Android\Android_WorkSpace\tabhost\fragment_tabhost\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\src\main\AndroidManifest.xml:20:17-69
+ADDED from D:\Android\Android_WorkSpace\tabhost\fragment_tabhost\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\src\main\AndroidManifest.xml:20:25-66
+		ADDED from D:\Android\Android_WorkSpace\tabhost\fragment_tabhost\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\src\main\AndroidManifest.xml:22:17-77
+ADDED from D:\Android\Android_WorkSpace\tabhost\fragment_tabhost\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from D:\Android\Android_WorkSpace\TabHost\fragment_tabhost\src\main\AndroidManifest.xml:22:27-74
+		ADDED from D:\Android\Android_WorkSpace\tabhost\fragment_tabhost\src\main\AndroidManifest.xml:22:27-74

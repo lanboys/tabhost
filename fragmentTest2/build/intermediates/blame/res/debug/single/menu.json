@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\Android\\Android_WorkSpace\\tabhost\\fragmentTest2\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\Android\\Android_WorkSpace\\tabhost\\fragmentTest2\\src\\main\\res\\menu\\main.xml"
+    },
+    {
         "merged": "D:\\Android\\Android_WorkSpace\\TabHost\\fragmentTest2\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
         "source": "D:\\Android\\Android_WorkSpace\\TabHost\\fragmentTest2\\src\\main\\res\\menu\\main.xml"
     }

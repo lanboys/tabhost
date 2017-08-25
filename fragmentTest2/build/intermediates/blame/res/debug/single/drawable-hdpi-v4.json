@@ -2,5 +2,9 @@
     {
         "merged": "D:\\Android\\Android_WorkSpace\\TabHost\\fragmentTest2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo.jpg",
         "source": "D:\\Android\\Android_WorkSpace\\TabHost\\fragmentTest2\\src\\main\\res\\drawable-hdpi\\logo.jpg"
+    },
+    {
+        "merged": "D:\\Android\\Android_WorkSpace\\tabhost\\fragmentTest2\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo.jpg",
+        "source": "D:\\Android\\Android_WorkSpace\\tabhost\\fragmentTest2\\src\\main\\res\\drawable-hdpi\\logo.jpg"
     }
 ]

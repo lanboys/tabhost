@@ -22,5 +22,29 @@
                 }
             }
         ]
+    },
+    {
+        "outputFile": "D:\\Android\\Android_WorkSpace\\tabhost\\fragment_tabhost\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w720dp-v13\\values-w720dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 76,
+                    "endOffset": 127
+                },
+                "from": {
+                    "file": "C:\\Users\\520\\.android\\build-cache\\a279e1ccfd6c75f3dd6c284625ae0332e9d51db9\\output\\res\\values-w720dp\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 175,
+                        "endColumn": 76,
+                        "endOffset": 247
+                    }
+                }
+            }
+        ]
     }
 ]

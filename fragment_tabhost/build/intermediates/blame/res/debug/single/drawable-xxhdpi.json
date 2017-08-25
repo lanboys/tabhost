@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\Android\\Android_WorkSpace\\tabhost\\fragment_tabhost\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_launcher.png",
+        "source": "D:\\Android\\Android_WorkSpace\\tabhost\\fragment_tabhost\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "D:\\Android\\Android_WorkSpace\\TabHost\\fragment_tabhost\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_launcher.png",
         "source": "D:\\Android\\Android_WorkSpace\\TabHost\\fragment_tabhost\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
     }
